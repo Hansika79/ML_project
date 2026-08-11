@@ -14,7 +14,7 @@ from sklearn.impute import SimpleImputer
 # ==========================================================
 
 
-df = pd.read_csv("C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv")
+df = pd.read_csv("D:/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv")
 
 
 # Create a copy for processing
@@ -224,7 +224,7 @@ print(final_output.isnull().sum())
 
 
 final_output.to_csv(
-   "C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/clean_one_hot_encoding_M2.csv",
+   "D:/PycharmProjects/placement_prediction/dataset/clean_one_hot_encoding_M2.csv",
    index=False
 )
 

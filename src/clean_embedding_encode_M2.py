@@ -10,7 +10,7 @@ import numpy as np
 # ==========================================================
 
 
-df = pd.read_csv("C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/clean_target_encode_M2.csv")
+df = pd.read_csv("D:/PycharmProjects/placement_prediction/dataset/clean_target_encode_M2.csv")
 
 
 # Create copy
@@ -225,7 +225,7 @@ print(final_output.isnull().sum())
 
 
 final_output.to_csv(
-   "C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/clean_embedded_encode_M2.csv",
+   "D:/PycharmProjects/placement_prediction/dataset/clean_embedded_encode_M2.csv",
    index=False
 )
 

@@ -24,8 +24,8 @@ import pandas as pd
 # ------------------------------------------------------------
 
 
-input_file = "C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv"
-output_file = "C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/clean_del_mean_model_M2.csv"
+input_file = 'D:/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv'
+output_file = 'D:/PycharmProjects/placement_prediction/dataset/clean_del_mean_model_M2.csv'
 
 
 df = pd.read_csv(input_file)

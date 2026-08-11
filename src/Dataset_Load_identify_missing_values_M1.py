@@ -4,7 +4,7 @@ import seaborn as sns
 from dateutil.tz.win import valuestodict
 
 # 1. Load the dataset (Make sure 'dataset.csv' is in your project directory)
-df = pd.read_csv(r"C:\Users\Hansika K\PycharmProjects\placement_prediction\dataset\placement_predict_50K_Raw.csv")
+df = pd.read_csv(r"D:\PycharmProjects\placement_prediction\dataset\placement_predict_50K_Raw.csv")
 
 
 # 2. Retrieve data in different ways

@@ -6,7 +6,7 @@ import seaborn as sns
 
 
 # Ensure the output directory exists
-output_dir = 'C:/Users/Hansika K/PycharmProjects/placement_prediction/outputs/Boxplots_correlation/'
+output_dir = 'D:/PycharmProjects/placement_prediction/outputs/Boxplots_correlation/'
 os.makedirs(output_dir, exist_ok=True)
 
 
@@ -15,7 +15,7 @@ os.makedirs(output_dir, exist_ok=True)
 # -------------------------------------------------------------
 
 
-df = pd.read_csv("C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv")
+df = pd.read_csv("D:/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv")
 
 
 print("Dataset Loaded Successfully. Shape:", df.shape)

@@ -10,7 +10,7 @@ import seaborn as sns
 
 
 print("1. Load the Dataset")
-file_path = 'C:/Users/Hansika K\PycharmProjects\placement_prediction/dataset/placement_predict_50K_Raw.csv'
+file_path = 'D:\PycharmProjects\placement_prediction\dataset\placement_predict_50K_Raw.csv'
 
 
 try:

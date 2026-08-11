@@ -9,8 +9,8 @@ import seaborn as sns
 # -------------------------------
 # Configuration
 # -------------------------------
-DATASET_PATH = r"C:\Users\Hansika K\PycharmProjects\placement_prediction\dataset\placement_predict_50K_Raw.csv"
-OUTPUT_FOLDER = r"C:\Users\Hansika K\PycharmProjects\placement_prediction\outputs\EDA_Analysis_outputs"
+DATASET_PATH = r"D:\PycharmProjects\placement_prediction\dataset\placement_predict_50K_Raw.csv"
+OUTPUT_FOLDER = r"D:\PycharmProjects\placement_prediction\outputs\EDA_Analysis_outputs"
 
 # Create output folder
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)

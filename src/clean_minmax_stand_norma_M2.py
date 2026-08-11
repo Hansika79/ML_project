@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 # Load Dataset
 # ------------------------------------------------------------
 # Replace with your dataset filename
-file_path = "C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv"
+file_path = "D:/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv"
 
 
 df = pd.read_csv(file_path)
@@ -163,14 +163,14 @@ print(df.duplicated().sum())
 # ---------------------------------------------------
 # Step 8: Save Preprocessed Dataset
 # ---------------------------------------------------
-df.to_csv("C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/clean_minmax_stand_norma_M2.csv", index=False)
+df.to_csv("D:/PycharmProjects/placement_prediction/dataset/clean_minmax_stand_norma_M2.csv", index=False)
 
 
 print("\nPreprocessed dataset saved successfully.")
 
 
 # to display histogram of preprocessed data
-pf = pd.read_csv("C:/Users/Hansika K/PycharmProjects/placement_prediction/dataset/clean_minmax_stand_norma_M2.csv")
+pf = pd.read_csv("D:/PycharmProjects/placement_prediction/dataset/clean_minmax_stand_norma_M2.csv")
 # Display histograms
 pf.hist(figsize=(12, 10), bins=10, edgecolor='black')
 
